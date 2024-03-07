@@ -13,6 +13,12 @@
 		62B194262B99BED200FE56D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B194252B99BED200FE56D4 /* Preview Assets.xcassets */; };
 		62B194282B99BED200FE56D4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B194272B99BED200FE56D4 /* Persistence.swift */; };
 		62B1942B2B99BED200FE56D4 /* TheBatApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62B194292B99BED200FE56D4 /* TheBatApp.xcdatamodeld */; };
+		62B194322B99BF5B00FE56D4 /* ThemeSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B194312B99BF5B00FE56D4 /* ThemeSelection.swift */; };
+		62B1943B2B99C79D00FE56D4 /* BatmanForever.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62B1943D2B99C79D00FE56D4 /* BatmanForever.ttf */; };
+		62B1943F2B99C89F00FE56D4 /* Orbitron in Resources */ = {isa = PBXBuildFile; fileRef = 62B1943E2B99C89F00FE56D4 /* Orbitron */; };
+		62B1944C2B99C96B00FE56D4 /* Changa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62B194482B99C8BE00FE56D4 /* Changa-Bold.ttf */; };
+		62B1944D2B99CAA100FE56D4 /* Changa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62B194462B99C8BE00FE56D4 /* Changa-Regular.ttf */; };
+		62B1944F2B99E33700FE56D4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B1944E2B99E33700FE56D4 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +29,21 @@
 		62B194252B99BED200FE56D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		62B194272B99BED200FE56D4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		62B1942A2B99BED200FE56D4 /* TheBatApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheBatApp.xcdatamodel; sourceTree = "<group>"; };
+		62B194312B99BF5B00FE56D4 /* ThemeSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSelection.swift; sourceTree = "<group>"; usesTabs = 0; };
+		62B194362B99C0C600FE56D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		62B1943C2B99C79D00FE56D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/BatmanForever.ttf; sourceTree = "<group>"; };
+		62B1943E2B99C89F00FE56D4 /* Orbitron */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Orbitron; sourceTree = "<group>"; };
+		62B194422B99C8BE00FE56D4 /* Changa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Changa-Light.ttf"; sourceTree = "<group>"; };
+		62B194432B99C8BE00FE56D4 /* Changa-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Changa-SemiBold.ttf"; sourceTree = "<group>"; };
+		62B194442B99C8BE00FE56D4 /* Changa-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Changa-Medium.ttf"; sourceTree = "<group>"; };
+		62B194452B99C8BE00FE56D4 /* Changa-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Changa-ExtraLight.ttf"; sourceTree = "<group>"; };
+		62B194462B99C8BE00FE56D4 /* Changa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Changa-Regular.ttf"; sourceTree = "<group>"; };
+		62B194472B99C8BE00FE56D4 /* Changa-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Changa-ExtraBold.ttf"; sourceTree = "<group>"; };
+		62B194482B99C8BE00FE56D4 /* Changa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Changa-Bold.ttf"; sourceTree = "<group>"; };
+		62B194492B99C8BE00FE56D4 /* OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		62B1944A2B99C8BE00FE56D4 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		62B1944B2B99C8BE00FE56D4 /* Changa-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Changa-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		62B1944E2B99E33700FE56D4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +60,8 @@
 		62B194122B99BED100FE56D4 = {
 			isa = PBXGroup;
 			children = (
+				62B1944E2B99E33700FE56D4 /* Extensions.swift */,
+				62B194372B99C39500FE56D4 /* Fonts */,
 				62B1941D2B99BED100FE56D4 /* TheBatApp */,
 				62B1941C2B99BED100FE56D4 /* Products */,
 			);
@@ -55,6 +78,8 @@
 		62B1941D2B99BED100FE56D4 /* TheBatApp */ = {
 			isa = PBXGroup;
 			children = (
+				62B194362B99C0C600FE56D4 /* Info.plist */,
+				62B194332B99BF6200FE56D4 /* Profile */,
 				62B1941E2B99BED100FE56D4 /* TheBatAppApp.swift */,
 				62B194202B99BED100FE56D4 /* ContentView.swift */,
 				62B194222B99BED200FE56D4 /* Assets.xcassets */,
@@ -71,6 +96,49 @@
 				62B194252B99BED200FE56D4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		62B194332B99BF6200FE56D4 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				62B194312B99BF5B00FE56D4 /* ThemeSelection.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		62B194372B99C39500FE56D4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				62B194402B99C8BE00FE56D4 /* Changa */,
+				62B1943E2B99C89F00FE56D4 /* Orbitron */,
+				62B1943D2B99C79D00FE56D4 /* BatmanForever.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		62B194402B99C8BE00FE56D4 /* Changa */ = {
+			isa = PBXGroup;
+			children = (
+				62B194412B99C8BE00FE56D4 /* static */,
+				62B194492B99C8BE00FE56D4 /* OFL.txt */,
+				62B1944A2B99C8BE00FE56D4 /* README.txt */,
+				62B1944B2B99C8BE00FE56D4 /* Changa-VariableFont_wght.ttf */,
+			);
+			path = Changa;
+			sourceTree = "<group>";
+		};
+		62B194412B99C8BE00FE56D4 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				62B194422B99C8BE00FE56D4 /* Changa-Light.ttf */,
+				62B194432B99C8BE00FE56D4 /* Changa-SemiBold.ttf */,
+				62B194442B99C8BE00FE56D4 /* Changa-Medium.ttf */,
+				62B194452B99C8BE00FE56D4 /* Changa-ExtraLight.ttf */,
+				62B194462B99C8BE00FE56D4 /* Changa-Regular.ttf */,
+				62B194472B99C8BE00FE56D4 /* Changa-ExtraBold.ttf */,
+				62B194482B99C8BE00FE56D4 /* Changa-Bold.ttf */,
+			);
+			path = static;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,8 +199,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62B1943B2B99C79D00FE56D4 /* BatmanForever.ttf in Resources */,
+				62B1944C2B99C96B00FE56D4 /* Changa-Bold.ttf in Resources */,
 				62B194262B99BED200FE56D4 /* Preview Assets.xcassets in Resources */,
 				62B194232B99BED200FE56D4 /* Assets.xcassets in Resources */,
+				62B1943F2B99C89F00FE56D4 /* Orbitron in Resources */,
+				62B1944D2B99CAA100FE56D4 /* Changa-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,13 +216,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				62B194282B99BED200FE56D4 /* Persistence.swift in Sources */,
+				62B1944F2B99E33700FE56D4 /* Extensions.swift in Sources */,
 				62B194212B99BED100FE56D4 /* ContentView.swift in Sources */,
 				62B1941F2B99BED100FE56D4 /* TheBatAppApp.swift in Sources */,
+				62B194322B99BF5B00FE56D4 /* ThemeSelection.swift in Sources */,
 				62B1942B2B99BED200FE56D4 /* TheBatApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		62B1943D2B99C79D00FE56D4 /* BatmanForever.ttf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62B1943C2B99C79D00FE56D4 /* en */,
+			);
+			name = BatmanForever.ttf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		62B1942C2B99BED200FE56D4 /* Debug */ = {
@@ -283,6 +368,8 @@
 				DEVELOPMENT_TEAM = 459XAM9CK6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TheBatApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -312,6 +399,8 @@
 				DEVELOPMENT_TEAM = 459XAM9CK6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TheBatApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
