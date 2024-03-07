@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		624C20D32B99F70F0097777D /* CoreDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624C20D22B99F70F0097777D /* CoreDataViewModel.swift */; };
+		624C20D62B99FA240097777D /* CriminalContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 624C20D42B99FA230097777D /* CriminalContainer.xcdatamodeld */; };
+		624C20D82B99FAC70097777D /* CriminalList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624C20D72B99FAC70097777D /* CriminalList.swift */; };
+		624C20DA2B9A05B30097777D /* AddCriminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624C20D92B9A05B30097777D /* AddCriminal.swift */; };
+		62A87AB82B9A23E100F504B2 /* CriminalInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A87AB72B9A23E100F504B2 /* CriminalInformation.swift */; };
 		62B1941F2B99BED100FE56D4 /* TheBatAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B1941E2B99BED100FE56D4 /* TheBatAppApp.swift */; };
 		62B194212B99BED100FE56D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B194202B99BED100FE56D4 /* ContentView.swift */; };
 		62B194232B99BED200FE56D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B194222B99BED200FE56D4 /* Assets.xcassets */; };
 		62B194262B99BED200FE56D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B194252B99BED200FE56D4 /* Preview Assets.xcassets */; };
-		62B194282B99BED200FE56D4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B194272B99BED200FE56D4 /* Persistence.swift */; };
-		62B1942B2B99BED200FE56D4 /* TheBatApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62B194292B99BED200FE56D4 /* TheBatApp.xcdatamodeld */; };
 		62B194322B99BF5B00FE56D4 /* ThemeSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B194312B99BF5B00FE56D4 /* ThemeSelection.swift */; };
 		62B1943B2B99C79D00FE56D4 /* BatmanForever.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62B1943D2B99C79D00FE56D4 /* BatmanForever.ttf */; };
 		62B1943F2B99C89F00FE56D4 /* Orbitron in Resources */ = {isa = PBXBuildFile; fileRef = 62B1943E2B99C89F00FE56D4 /* Orbitron */; };
@@ -22,13 +25,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		624C20D22B99F70F0097777D /* CoreDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewModel.swift; sourceTree = "<group>"; };
+		624C20D52B99FA240097777D /* CriminalContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CriminalContainer.xcdatamodel; sourceTree = "<group>"; };
+		624C20D72B99FAC70097777D /* CriminalList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriminalList.swift; sourceTree = "<group>"; };
+		624C20D92B9A05B30097777D /* AddCriminal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCriminal.swift; sourceTree = "<group>"; };
+		62A87AB72B9A23E100F504B2 /* CriminalInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriminalInformation.swift; sourceTree = "<group>"; };
 		62B1941B2B99BED100FE56D4 /* TheBatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheBatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B1941E2B99BED100FE56D4 /* TheBatAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheBatAppApp.swift; sourceTree = "<group>"; };
 		62B194202B99BED100FE56D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62B194222B99BED200FE56D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62B194252B99BED200FE56D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		62B194272B99BED200FE56D4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		62B1942A2B99BED200FE56D4 /* TheBatApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheBatApp.xcdatamodel; sourceTree = "<group>"; };
 		62B194312B99BF5B00FE56D4 /* ThemeSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSelection.swift; sourceTree = "<group>"; usesTabs = 0; };
 		62B194362B99C0C600FE56D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		62B1943C2B99C79D00FE56D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/BatmanForever.ttf; sourceTree = "<group>"; };
@@ -83,8 +89,6 @@
 				62B1941E2B99BED100FE56D4 /* TheBatAppApp.swift */,
 				62B194202B99BED100FE56D4 /* ContentView.swift */,
 				62B194222B99BED200FE56D4 /* Assets.xcassets */,
-				62B194272B99BED200FE56D4 /* Persistence.swift */,
-				62B194292B99BED200FE56D4 /* TheBatApp.xcdatamodeld */,
 				62B194242B99BED200FE56D4 /* Preview Content */,
 			);
 			path = TheBatApp;
@@ -102,6 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				62B194312B99BF5B00FE56D4 /* ThemeSelection.swift */,
+				624C20D22B99F70F0097777D /* CoreDataViewModel.swift */,
+				624C20D42B99FA230097777D /* CriminalContainer.xcdatamodeld */,
+				624C20D72B99FAC70097777D /* CriminalList.swift */,
+				624C20D92B9A05B30097777D /* AddCriminal.swift */,
+				62A87AB72B9A23E100F504B2 /* CriminalInformation.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -215,12 +224,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62B194282B99BED200FE56D4 /* Persistence.swift in Sources */,
 				62B1944F2B99E33700FE56D4 /* Extensions.swift in Sources */,
+				624C20D32B99F70F0097777D /* CoreDataViewModel.swift in Sources */,
+				624C20D62B99FA240097777D /* CriminalContainer.xcdatamodeld in Sources */,
 				62B194212B99BED100FE56D4 /* ContentView.swift in Sources */,
+				624C20DA2B9A05B30097777D /* AddCriminal.swift in Sources */,
+				624C20D82B99FAC70097777D /* CriminalList.swift in Sources */,
 				62B1941F2B99BED100FE56D4 /* TheBatAppApp.swift in Sources */,
 				62B194322B99BF5B00FE56D4 /* ThemeSelection.swift in Sources */,
-				62B1942B2B99BED200FE56D4 /* TheBatApp.xcdatamodeld in Sources */,
+				62A87AB82B9A23E100F504B2 /* CriminalInformation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,13 +455,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		62B194292B99BED200FE56D4 /* TheBatApp.xcdatamodeld */ = {
+		624C20D42B99FA230097777D /* CriminalContainer.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				62B1942A2B99BED200FE56D4 /* TheBatApp.xcdatamodel */,
+				624C20D52B99FA240097777D /* CriminalContainer.xcdatamodel */,
 			);
-			currentVersion = 62B1942A2B99BED200FE56D4 /* TheBatApp.xcdatamodel */;
-			path = TheBatApp.xcdatamodeld;
+			currentVersion = 624C20D52B99FA240097777D /* CriminalContainer.xcdatamodel */;
+			path = CriminalContainer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
